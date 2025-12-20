@@ -7,10 +7,17 @@ int main()
 
 	alpha = 99;
 	ptr = &alpha;
-	printf("The address of variable alpha is %p\n",&alpha);
-	printf("The value stored in pointer ptr is %p\n",ptr);
-	printf("The content of variable alpha is %d\n",alpha);
-	printf("The content of memory address %p is %d\n",ptr,*ptr);
+
+	//  %p displays a memory location value
+	printf("address of variable alpha is %p\n",&alpha);
+	printf("value stored in pointer ptr is %p\n",ptr);
+
+	//  %d displays an integer
+	printf("content of variable alpha is %d\n",alpha);
+
+	//  dereferenced pointer variable, *ptr
+	printf("content of memory address %p is %d\n",ptr,*ptr);
+	printf("\n")
 
 	return(0);
 }

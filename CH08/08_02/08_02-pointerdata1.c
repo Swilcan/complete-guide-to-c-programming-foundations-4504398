@@ -6,9 +6,16 @@ int main()
 	int *ptr;
 
 	alpha = 99;
+
+	//  initialize the pointer 
 	ptr = &alpha;
-	printf("The address of variable alpha is %p\n",&alpha);
-	printf("The value stored in pointer ptr is %p\n",ptr);
+
+	printf("A pointer is a variable that holds a memory location\n");
+
+	//  %p displays a memory location value
+	printf("address of variable alpha is %p\n",&alpha);
+	printf("value stored in pointer ptr is memory location %p\n",ptr);
+	printf("\n");
 
 	return(0);
 }

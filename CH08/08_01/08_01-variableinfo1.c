@@ -3,11 +3,13 @@
 int main()
 {
 	int alpha;
-
 	alpha = 27;
-	printf("Integer variable `alpha` holds the value %d\n",alpha);
-	printf("Variable `alpha` occupies %lu bytes of storage\n",sizeof(alpha));
-	printf("And it sits at address %p\n",&alpha);
+
+	printf("A pointer is a variable that holds a memory location\n");
+	printf("integer variable `alpha` holds the value %d\n",alpha);
+	printf("integer variable `alpha` occupies %lu bytes of storage\n",sizeof(alpha));
+	printf("memory location address %p\n",&alpha);
+	printf("\n");
 
 	return(0);
 }
