@@ -6,8 +6,10 @@ int main()
 	int *pt;
 
 	pt = twos;
-	printf("%p\n",pt);
+
+	printf("twos is stored at memory address %p\n",pt);
 	printf("%p\n",pt+1);
+	printf("\n");
 
 	return(0);
 }

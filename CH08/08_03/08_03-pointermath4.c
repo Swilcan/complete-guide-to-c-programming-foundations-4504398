@@ -6,8 +6,10 @@ int main()
 	double *pt;
 
 	pt = twos;
+	
 	printf("%p\n",pt);
 	printf("%p\n",pt+1);
+	printf("\n");
 
 	return(0);
 }

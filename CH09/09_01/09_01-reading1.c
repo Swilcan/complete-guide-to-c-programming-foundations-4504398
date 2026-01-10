@@ -14,6 +14,7 @@ int main()
 	}
 	
 	printf("File '%s' opened\n",filename);
+	printf("\n");
 
 	/* clean-up */
 	fclose(fh);
